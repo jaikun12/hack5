@@ -2,31 +2,31 @@
 <html>
 		
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen,projection"/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"> 
 		<link rel="stylesheet" type="text/css" href="css/thriftr.css"/>
 		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="css/roboto.min.css" rel="stylesheet">
+        <link href="css/material.min.css" rel="stylesheet">
+        <link href="css/ripples.min.css" rel="stylesheet">
 		<title>Thriftr | Save up</title>
 
 	</head>
 	<body>
 		
-		<nav class="teal">
-			<div class="nav-wrappper">
-				<a href="#" class="brand-logo"><b>Thriftr</b></a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="">About</a></li>
-					<li><a href="">Register Your Business</a></li>
-					<li><a href="">Login</a></li>
-				</ul>
+		<nav class="main-nav">
+			<div class="container">
+			<h2><b>Thriftr</b></h2>
 			</div>
 		</nav>
 
-		<div class="row no-padding">
-			<div class="full-height col s3 z-depth-2">
-				<div class="row">
-				<div class="input-field col s12">
-				<select name="location">
-					<option value="" disabled selected>Cities</option>
+		<div id="side-forms" class="form-group col-lg-3">
+
+			<div class="col-lg-12">
+				<select id="loc" class="form-control" onchange="alert('asdasd');">
       				<option value="a">Malabon</option>
      				<option value="b">Mandaluyong</option>
       				<option value="c">Manila</option>
@@ -36,36 +36,30 @@
       				<option value="g">Pasig City</option>
       				<option value="h">San Juan</option>
       				<option value="i">Quezon City</option>
-    			</select>
-   				 
- 				 </div>
- 				 </div>
+      			</select>
+      		</div>
 
- 				 <div class="row">
- 				 	<div class="input-field col s12">
- 				 		<input type="text" name="item">
- 				 		<label for="item">Search For Item</label>
- 				 	</div>
- 				 </div>
 
-			
+
+
 		</div>
 
-			<div class="full-height col s9">
-			</div>
-		</div>
+		
+		
 
 
 
 
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/materialize.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
-		<script>
-
-  		$(document).ready(function() {
-    $('select').material_select();
-  });
+		<script src="js/ripples.min.js"></script>
+        <script src="js/material.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
         </script>
 
 	</body>

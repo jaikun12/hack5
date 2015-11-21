@@ -1,24 +1,12 @@
-html{
-	overflow:hidden;
+.main-nav{
+	height:70px;
+	background-color:#009688;
 }
 
-.margin{
-	padding:20px;
+.main-nav h2{
+	color:white;
 }
 
-.full-height{
-	height:36.5em;
-}
-
-.no-padding{
-	padding:0px;
-}
-
-.med-font{
-	font-size:20px;
-}
-
-.select-dropdown{
-	max-height:300px;
-
+#side-forms{
+	border:solid black 2px;
 }
