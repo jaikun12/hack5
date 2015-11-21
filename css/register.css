@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #009688;
+  }
+
+main {
+    flex: 1 0 auto;
+}
+
+#header{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+
+.container{
+    width:  100%;
+}
+#content{
+    float: right;
+    padding: 30px;
+    padding-top: 10px;
+    width: 70%;
+    height: 100%;
+    overflow: scroll;
+    background-color: #ffd54f ;
+}
+
+#content h4{
+    color: rgb(120, 120, 120);
+}
+
+#content hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+#footer{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+
+.select-dropdown{
+    max-height: 150px;
+    overflow: auto;
+}
