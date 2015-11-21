@@ -6,6 +6,8 @@
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen, projection">
         <link rel="stylesheet" href="css/login.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <?php
+            session_destroy(); ?>
     </head>
     <body>
         <div class="container">
@@ -16,7 +18,7 @@
                         <h3>LOGO</h3>
                     </div>
                 </center>
-                <form class="col s12" action="#" method="post">
+                <form class="col s12" action="php/authentication.php" method="POST">
                     <div class="row">
                         <div class="input-field col s12">
                             <input id="email" type="text" class="validate" name="username">
