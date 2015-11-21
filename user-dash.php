@@ -25,7 +25,7 @@
 
 					<li><a href="">About</a></li>
 					
-					<li><a href="login.php">Logout</a></li>
+					<li><a href="logout.php">Logout</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -33,7 +33,7 @@
 		<div class="container z-depth-2 margin">
 			<h5>Your Market</h5>
 			<p>Upload your file here to define your market's products.</p>
-			<form action="php/" method="POST" enctype="multipart/form-data">
+			<form action="php/userfilereader.php" method="POST" enctype="multipart/form-data">
 				<div class="row">
 					<div class="file-field input-field col s9">
 						<div class="btn">

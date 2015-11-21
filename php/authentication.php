@@ -16,6 +16,8 @@
 				$get_market = mysql_query("SELECT * FROM user_info_table WHERE username = '$user';");
 				while($result = mysql_fetch_array($get_market)){
 					$_SESSION['marketname'] = $result['market_name'];
+					$_SESSION['username'] = $result['username'];
+					$_SESSION['location'] = $result['location'];
 				}
 				header("Location: ../user-dash.php");
 				$dbconnect -> closeConnection();
