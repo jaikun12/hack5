@@ -14,7 +14,7 @@
         </div>-->
         <div class="container">
             <div id="content">
-            <form class="col s12" action="login.php" method="post">
+            <form class="col s12" action="php/addaccount.php" method="post">
                 <h2>Register your market!</h2>
                 <blockquote>
                     Please complete the form below.
@@ -37,9 +37,15 @@
                           <label for="email">Email</label>
                         </div>
                     </div>
+					<div class="row">
+                        <div class="input-field col s12">
+                          <input id="username" type="text" name='username' class="validate" required>
+                          <label for="username">Username</label>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="input-field col s12">
-                          <input id="password" type="password" class="validate" required>
+                          <input id="password" type="password" name='password' class="validate" required>
                           <label for="password">Password</label>
                         </div>
                     </div>
@@ -48,23 +54,23 @@
                 <hr class="style-one">
                     <div class="row">
                         <div class="input-field col s12">
-                            <input id="marketname" type="text" class="validate" required>
+                            <input id="marketname" type="text" name='marketname' class="validate" required>
                             <label for="marketname">Market Name</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s6">
-                            <select required>
+                            <select required name='location'>
                                 <option value="" disabled selected>Choose your location</option>
-                                <option value="1">Malabon City</option>
-                                <option value="2">Mandaluyong City</option>
-                                <option value="3">Manila City</option>
-                                <option value="4">Marikina City</option>
-                                <option value="5">Muntinlupa City</option>
-                                <option value="6">Pasay City</option>
-                                <option value="7">Pasig City</option>
-                                <option value="8">Quezon City</option>
-                                <option value="9">San Juan City</option>
+                                <option value="Malabon City">Malabon City</option>
+                                <option value="Mandaluyong City">Mandaluyong City</option>
+                                <option value="Manila City">Manila City</option>
+                                <option value="Marikina City">Marikina City</option>
+                                <option value="Muntinlupa City">Muntinlupa City</option>
+                                <option value="Pasay City">Pasay City</option>
+                                <option value="Pasig City">Pasig City</option>
+                                <option value="Quezon City">Quezon City</option>
+                                <option value="San Juan City">San Juan City</option>
                             </select>
                             <label>Location</label>
                         </div>
