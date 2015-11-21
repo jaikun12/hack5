@@ -26,10 +26,16 @@
 				<div class="row">
 				<div class="input-field col s12">
 				<select name="location">
-					<option value="" disabled selected>Location</option>
-      				<option value="1">Option 1</option>
-     				<option value="2">Option 2</option>
-      				<option value="3">Option 3</option>
+					<option value="" disabled selected>Cities</option>
+      				<option value="a">Malabon</option>
+     				<option value="b">Mandaluyong</option>
+      				<option value="c">Manila</option>
+      				<option value="d">Marikina</option>
+      				<option value="e">Muntinlupa</option>
+      				<option value="f">Pasay City</option>
+      				<option value="g">Pasig City</option>
+      				<option value="h">San Juan</option>
+      				<option value="i">Quezon City</option>
     			</select>
    				 
  				 </div>
