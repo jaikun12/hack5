@@ -1,3 +1,7 @@
+html{
+	overflow:hidden;
+}
+
 .main-nav{
 	height:70px;
 	background-color:#009688;
@@ -5,8 +9,29 @@
 
 .main-nav h2{
 	color:white;
+	margin-left:-30px;
 }
 
 #side-forms{
-	border:solid black 2px;
+	height:540px;
+}
+
+#side-forms div{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#top-items{
+	overflow:auto;
+	max-height:300px;
+}
+
+.list-group .list-group-item{
+	opacity:0.7;
+
+}
+
+.list-group .list-group-item:hover{
+	opacity:1;
+	background-color:#b0bec5;
 }

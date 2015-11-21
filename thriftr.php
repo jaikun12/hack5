@@ -23,10 +23,11 @@
 			</div>
 		</nav>
 
-		<div id="side-forms" class="form-group col-lg-3">
+		<div id="side-forms" class="well form-group col-lg-3">
 
 			<div class="col-lg-12">
 				<select id="loc" class="form-control" onchange="alert('asdasd');">
+					<option value="">Choose your location</option>
       				<option value="a">Malabon</option>
      				<option value="b">Mandaluyong</option>
       				<option value="c">Manila</option>
@@ -39,8 +40,47 @@
       			</select>
       		</div>
 
+      		<div class="col-lg-12">
+      			<input type="text" class="form-control" placeholder="Search for item">
+      		</div>
 
+      		<div class="col-md-12" id="top-items">
+      		<!--list group-->
+      		<div class="list-group">
+  				<div class="list-group-item">
+    				
+    			<div class="row-content">
+      				<div class="least-content">15m</div>
+      				<h4 class="list-group-item-heading">Tile with a label</h4>
 
+      				<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
+    			</div>
+  				</div>
+  				<div class="list-group-separator"></div>
+
+  				<div class="list-group-item">
+    				
+    			<div class="row-content">
+      				<div class="least-content">15m</div>
+      				<h4 class="list-group-item-heading">Tile with a label</h4>
+
+      				<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
+    			</div>
+  				</div>
+  				<div class="list-group-separator"></div>
+
+  				<div class="list-group-item">
+    				
+    			<div class="row-content">
+      				<div class="least-content">15m</div>
+      				<h4 class="list-group-item-heading">Tile with a label</h4>
+
+      				<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
+    			</div>
+  				</div>
+  			</div>
+  		<!--list group-->
+  		</div>
 
 		</div>
 
