@@ -1,0 +1,24 @@
+html{
+	overflow:hidden;
+}
+
+.margin{
+	padding:20px;
+}
+
+.full-height{
+	height:36.5em;
+}
+
+.no-padding{
+	padding:0px;
+}
+
+.med-font{
+	font-size:20px;
+}
+
+.select-dropdown{
+	max-height:300px;
+
+}
