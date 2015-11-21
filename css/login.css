@@ -1,5 +1,5 @@
 body{
-    background-color: #ffd54f ;
+    background-color: #fff8e1 ;
 }
 
 #login-container{
@@ -12,6 +12,10 @@ body{
     /**border-radius: 10px;**/
 }
 
+#logo{
+	width:150px;
+	height:150px;
+}
 h3{
-    color: white;
+    color: black;
 }

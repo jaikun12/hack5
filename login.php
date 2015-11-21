@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Login | Thrifter</title>
+        <title>Login | Thriftr</title>
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen, projection">
         <link rel="stylesheet" href="css/login.css">
@@ -14,7 +14,7 @@
             <div id="login-container">
                 <center>
                     <div class="row">
-                        <h3>LOGO</h3>
+                        <img id="logo" src="img/thriftr_login.png">
                     </div>
                 </center>
                 <form class="col s12" action="php/authentication.php" method="POST">

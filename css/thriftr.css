@@ -2,9 +2,30 @@ html{
 	overflow:hidden;
 }
 
+.small{
+	height:50px;
+	width:50px;
+	margin-top:10px;
+	margin-left:-50px;
+}
+
+.white{
+	color:white;
+}
+
+#brand{
+	font-size:32px;
+	
+}
+
+.valign{
+	vertical-align:center;
+}
+
 .main-nav{
 	height:70px;
 	background-color:#009688;
+	font-weight:bolder;
 }
 
 .main-nav h2{
@@ -13,7 +34,7 @@ html{
 }
 
 #side-forms{
-	height:540px;
+	height:640px;
 }
 
 #side-forms div{
@@ -34,4 +55,22 @@ html{
 .list-group .list-group-item:hover{
 	opacity:1;
 	background-color:#b0bec5;
+}
+#map{
+	position:relative;
+	height:540px;
+}
+.overlay{
+display:block;
+  text-align:center;
+  color:#fff;
+  font-size:12px;
+  opacity:0.8;
+  background:#f44336;
+  border:solid 3px #d32f2f;
+  border-radius:4px;
+  box-shadow:2px 2px 10px #333;
+  text-shadow:1px 1px 1px #666;
+  padding:0px;
+
 }

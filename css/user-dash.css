@@ -1,0 +1,22 @@
+.teal .nav-wrapper .brand-logo{
+	margin-left:30px;
+}
+
+
+.margin{
+	padding:20px;
+}
+
+#logo{
+	height:50px;
+	width:50px;
+}
+
+.container{
+	background-color:#fff8e1;
+}
+
+#prod_list{
+	height:500px;
+	overflow:auto;
+}

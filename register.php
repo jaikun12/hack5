@@ -8,14 +8,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <!--<div class="container" id="header">
+    <div class="container-fluid">
+        <div class="pull-left" id="left">
             
             
-        </div>-->
-        <div class="container">
+        </div>
+        <div class="">
             <div id="content">
             <form class="col s12" action="php/addaccount.php" method="post">
-                <h2>Register your market!</h2>
+                <h2>Partner with <img src="img/thriftr_new_min.png" class="logo"></h2>
                 <blockquote>
                     Please complete the form below.
                 </blockquote>
@@ -49,8 +50,9 @@
                           <label for="password">Password</label>
                         </div>
                     </div>
+					<div class="row">
                 <br>
-                <h4>MARKET INFORMATION</h4>
+                <h4>Register your market.</h4>
                 <hr class="style-one">
                     <div class="row">
                         <div class="input-field col s12">
@@ -75,6 +77,17 @@
                             <label>Location</label>
                         </div>
                     </div>
+					<div class="input-field col s12">
+					  <input id="username" type="text" name='lat' class="validate" required>
+					  <label for="username">Location Latitude</label>
+					</div>
+					</div>
+					<div class="row">
+						<div class="input-field col s12">
+						  <input id="password" type="text" name='lng' class="validate" required>
+						  <label for="password">Location Longtitude</label>
+						</div>
+					</div>
                     <div class="row">
                         <button class="btn waves-effect waves-light" type="submit" name="action">Register
                             <i class="material-icons right">send</i>
@@ -83,6 +96,7 @@
             </form>
             </div>
             
+        </div>
         </div>
         <!--<footer>
             <div class="container" id="footer">
