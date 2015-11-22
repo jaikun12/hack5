@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2015 at 08:14 PM
+-- Generation Time: Nov 22, 2015 at 12:57 AM
 -- Server version: 5.6.25
 -- PHP Version: 5.5.27
 
@@ -726,7 +726,15 @@ INSERT INTO `market_coordinates` (`name_of_market`, `latitude`, `longtitude`) VA
 ('San Juan Public Market', 14.605064, 121.023182),
 ('New Arayat Market, Quezon City', 14.618948, 121.050196),
 ('Pasay Market, Pasay City, MM', 14.551447, 120.996999),
-('Mandaluyong Public Market', 14.586151, 121.03562);
+('Mandaluyong Public Market', 14.586151, 121.03562),
+('Carbon Public Market, Malabon', 14.668613, 120.9660312),
+('Marikina Public Market, MM', 14.63295, 121.096103),
+('Pasig City Mega Market, Carunc', 14.5645648, 121.0851685),
+('Pasil Public Market', 14.5588448, 121.0850571),
+('Viajero Market, Pasig City, MM', 14.58897, 121.061573),
+('Paco Public Market', 14.5792009, 120.9932782),
+('Pandacan Public Market', 14.5896108, 121.0029984),
+('Pandacan Market', 14.585432, 121.001163);
 
 -- --------------------------------------------------------
 
@@ -758,7 +766,7 @@ CREATE TABLE IF NOT EXISTS `user_table` (
   `user_key` int(10) NOT NULL,
   `username` varchar(30) NOT NULL,
   `password` varchar(30) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `user_table`
@@ -802,7 +810,7 @@ ALTER TABLE `marketprices_table`
 -- AUTO_INCREMENT for table `user_table`
 --
 ALTER TABLE `user_table`
-  MODIFY `user_key` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=13;
+  MODIFY `user_key` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

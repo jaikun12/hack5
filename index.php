@@ -161,11 +161,17 @@
 				lng: '$lon',
 				title: '$name',
 				infoWindow: {
-				content: '<p><b>$name Products</b></p>'
+				content: '<p><b>$name Products</b></p><br>";
+				
+				$query2 = mysql_query("SELECT * FROM marketprices_table WHERE name_of_market = '$name'");
+				while($result2 = mysql_fetch_array($query2)){
+					echo $result2['comodity']." <b>".$result2['price']."</b><br>";
+				}
+				echo"'
 			}
 				});
 			</script>";
-				}
+			}
 				
 				
 				
@@ -179,14 +185,21 @@
 				 $lat = $result['latitude'];
 				 $lon = $result['longtitude'];
 				 $name = $result['name_of_market'];
-		
+				
+			
 			echo "<script type='text/javascript'>
 				map.addMarker({
 				lat: '$lat',
 				lng: '$lon',
 				title: '$name',
 				infoWindow: {
-				content: '<p><b>$name Products</b></p>'
+				content: '<p><b>$name Products</b></p><br>";
+				
+				$query2 = mysql_query("SELECT * FROM marketprices_table WHERE name_of_market = '$name'");
+				while($result2 = mysql_fetch_array($query2)){
+					echo $result2['comodity']." <b>".$result2['price']."</b><br>";
+				}
+				echo"'
 			}
 				});
 			</script>";
