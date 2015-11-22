@@ -77,6 +77,7 @@
                             <label>Location</label>
                         </div>
                     </div>
+					<a href="http://www.mapcoordinates.net/" class="waves-effect waves-light btn">Find Location Coordinates Here</a>
 					<div class="input-field col s12">
 					  <input id="username" type="text" name='lat' class="validate" required>
 					  <label for="username">Location Latitude</label>
