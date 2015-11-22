@@ -59,6 +59,11 @@
       			<input type="submit" class="form-control" value='Search'>
       		</div>
 
+      		<div class="col-lg-8">
+      			<p>Want to know where you can find the produce you want in the cheapest price?</p>
+      			<p>Pick your location and type the produce you want to learn where you can find it at the cheapest price.</p>
+      		</div>
+
       		
       			
       				<a href="index.php" class="btn btn-default">Clear Filter</a>
