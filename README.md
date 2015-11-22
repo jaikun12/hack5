@@ -7,19 +7,19 @@ Thriftr is the best app you can rely on to search for the markets that would off
 #‪#‎ Screenshots‬
 ![Landing Page](http://i.imgur.com/FqbFbUl.png)
 ![Registration](http://i.imgur.com/mdgwSyI.png)
-![User Dashboard](http://imgur.com/ouvXakC)
+![User Dashboard](http://i.imgur.com/ouvXakC.png)
 
 ## Tech and Data Used
-- [Bootstrap](https://www.getbootstrap.com/)
-- [Materialize CSS](https://www.materializecss.com/)
-- [Gmaps](https://www.gmaps.js/)
-- [PHP Excel](https://github.phpexcel)
-- [DOA - Market Prices](data.gov.ph)
+1. [Bootstrap](https://www.getbootstrap.com/)
+2. [Materialize CSS](https://www.materializecss.com/)
+3. [Gmaps](https://www.gmaps.js/)
+4. [PHP Excel](https://github.phpexcel)
+5. [DOA - Market Prices](data.gov.ph)
 
 
 ## Credits
-- **John Joen Lim - Frontend Developer**
-- **Lawrence De Leon - Backend Developer**
-- **Gabriel Daos - Backend Developer**
-- **John Robert Sevilla - Frontend Developer**
-- **Raphael Afable - Graphic Artist**
+- John Joen Lim - Frontend Developer
+- Lawrence De Leon - Backend Developer
+- Gabriel Daos - Backend Developer
+- John Robert Sevilla - Frontend Developer
+- Raphael Afable - Graphic Artist
