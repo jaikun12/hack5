@@ -2,7 +2,7 @@
 Hack 5 Repository for Hacker Cup 2015
 
 #Thriftr
-Thriftr is the best app you can rely on to search for the markets that would offer the products you're looking for at the best price possible.
+Thriftr provides you with a map related to the market of fresh produce, it can help you locate your cheapest produce near you and can help you compare prices with your local public markets. Not only that, If you have a business or market that retails in produce you can be a partner with us and allow us to advertise your market by putting it on our maps. 
 
 #‪#‎ Screenshots‬
 ![Landing Page](http://i.imgur.com/FqbFbUl.png)
