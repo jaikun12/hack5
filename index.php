@@ -184,7 +184,7 @@
 		}else{
 		
 			$query = mysql_query("Select * FROM market_coordinates");
-		
+			//EXAMPLE
 		
 			while($result = mysql_fetch_array($query)){
 				 $lat = $result['latitude'];
