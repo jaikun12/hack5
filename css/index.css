@@ -1,0 +1,94 @@
+body, html{
+	margin: 0;
+	font-family:'Roboto';
+	background:url(../img/market.jpg);
+	background-attachment:fixed;
+}
+
+h1,h2,h3,h4,h5{
+	margin: 0;
+
+}
+
+a{
+	color:white;
+	text-decoration:underline;
+	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#F78F0E;
+}
+
+.empha{
+	font-weight:600;
+	color:#3DB813;
+}
+
+#landing-div .logo{
+	height:200px;
+	width:200px;
+
+}
+
+
+
+
+#landing-div{
+	padding-top:18%;
+	
+	width:100vw;
+	color:white;
+	
+
+}
+
+#landing-div h1{
+	font-size:7vh;
+	margin-bottom:30%;
+}
+
+#landing-div h4{
+	font-family:'Open Sans';
+}
+
+#landing-div img{
+	width:60%;
+}
+
+#landing-div p{
+	font-family:'Open Sans';
+	font-size:3.6vh;
+	width:70%;
+	text-align:justify;
+}
+
+.role{
+	height:2vh;
+}
+
+
+
+.quoteblock{
+	font-size:6.5vh;
+	font-family: 'Open Sans';
+	margin:7vh;
+	
+}
+
+.spacer{
+	height:300px;
+	width:100%;
+	opactiy:0;
+}
+
+.dp{
+	height:150px;
+	width:100px;
+}
+
+
