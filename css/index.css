@@ -46,7 +46,7 @@ a:hover{
 
 #landing-div{
 	padding-top:18%;
-	
+	overflow-x:hidden;
 	width:100vw;
 	color:white;
 	
