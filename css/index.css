@@ -4,6 +4,11 @@ body, html{
 	background:url(../img/market.jpg);
 	background-attachment:fixed;
 	text-shadow:0.5px 0.5px black;
+	overflow-x:hidden;
+}
+
+*{
+	box-sizing:border-box;
 }
 
 h1,h2,h3,h4,h5{
