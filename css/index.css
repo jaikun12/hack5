@@ -64,6 +64,7 @@ a:hover{
 
 #landing-div h4{
 	font-family:'Open Sans';
+	font-size:2.7vh;
 }
 
 #landing-div img{
@@ -77,8 +78,9 @@ a:hover{
 	text-align:justify;
 }
 
+
 .role{
-	height:2vh;
+	font-size:2vh;
 }
 
 
@@ -97,8 +99,12 @@ a:hover{
 }
 
 .dp{
-	height:100px;
+	
 	width:100px;
+}
+
+.maker{
+	margin-top:10vh;
 }
 
 
