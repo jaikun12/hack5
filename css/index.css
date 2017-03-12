@@ -1,11 +1,15 @@
+
 body, html{
 	margin: 0;
 	font-family:'Roboto';
 	background:url(../img/market.jpg);
 	background-attachment:fixed;
+	background-size:cover;
+	/*background-position:center top;*/
 	text-shadow:0.5px 0.5px black;
 	overflow-x:hidden;
 }
+
 
 *{
 	box-sizing:border-box;
@@ -93,7 +97,7 @@ a:hover{
 }
 
 .dp{
-	height:150px;
+	height:100px;
 	width:100px;
 }
 

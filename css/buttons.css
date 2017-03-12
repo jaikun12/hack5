@@ -1,7 +1,7 @@
 .hollow-btn{
 	padding:5px 15px;
-	color:#0080FF;
-	border:solid #0080FF 1px;
+	color:white;
+	border:solid white 1px;
 	margin:10px;
 	background:none;
 	border-radius:5px;
@@ -9,6 +9,7 @@
   	-ms-transition:.2s;
   	-moz-transition:.2s;
   	-webkit-transition:.2s;
+  	font-size:2vh;
 
 }
 
